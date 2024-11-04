@@ -1,0 +1,16 @@
+<input type="text" [(ngModel)]="todo.name" />
+<button [disabled]="!todo.name.length" (click)="submit()">Add +</button>
+
+@for (todo of todos$ | async; track $index) {
+<div style="display: flex; padding: 1rem 0">
+  <span [innerText]="todo.name"></span>
+  <div>
+    <input
+      type="checkbox"
+      [(ngModel)]="todo.isDone"
+      (ngModelChange)="updateTodo(todo)"
+    />
+    <button (click)="deleteTodo(todo)">X</button>
+  </div>
+</div>
+}
