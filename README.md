@@ -1,27 +1,21 @@
-# GenericFirestoreService
+# Angular Firebase Firestore - Generic CRUD Service
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.10.
+This project shows how to create a **Generic Firestore CRUD Service** in an Angular app using Firebase. The service is reusable and can handle any Firestore collection, making it easy to manage different data models with less code.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Generic Firestore Service**: Centralized CRUD operations for any Firestore collection.
+- **Todo Example**: A `TodoService` and `TodoComponent` to demonstrate usage.
+- **Quick Integration**: Easy setup for Firebase Firestore in Angular projects.
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Install dependencies:
+   ```bash
+   npm install
+2. Run the app:
+   ```bash
+   ng serve -o
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Medium Article
+For a detailed tutorial, check out the [Medium article](https://ekrem-kocak.medium.com/building-a-generic-firestore-service-in-angular-d07767b093db) for this project.
